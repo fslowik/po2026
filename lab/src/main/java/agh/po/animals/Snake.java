@@ -1,12 +1,11 @@
 package agh.po.animals;
 
-public class Zebra extends Animal{
-    public Zebra(String name){
+public class Snake extends Animal{
+    public Snake(String name){
         super(name,4);
     }
-
     @Override
     String getDescription() {
-        return "zebra";
+        return "wąż";
     }
 }

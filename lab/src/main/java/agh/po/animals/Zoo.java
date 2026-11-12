@@ -12,13 +12,13 @@ public class Zoo {
 
                 switch (j) {
                     case 0:
-                        animals[i] = new Zebra("zebra  " + i);
+                        animals[i] = new Dog("pies  " + i);
                         break;
                     case 1:
                         animals[i] = new Parrot("papuga  " + i);
                         break;
                     case 2:
-                        animals[i] = new Elephant("słoń " + i);
+                        animals[i] = new Snake("wąż " + i);
                         break;
                 }
             }
