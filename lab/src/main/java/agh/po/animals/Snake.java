@@ -2,10 +2,14 @@ package agh.po.animals;
 
 public class Snake extends Animal{
     public Snake(String name){
-        super(name,4);
+        super(name,0);
     }
     @Override
     String getDescription() {
-        return "wąż";
+        return "kobra";
+    }
+    @Override
+    public void makeSound() {
+        System.out.println(name + "SSSSSSSSSSSSSS");
     }
 }

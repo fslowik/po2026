@@ -7,6 +7,10 @@ public class Dog extends Animal{
 
     @Override
     String getDescription() {
-        return "pies";
+        return "azor";
+    }
+    @Override
+    public void makeSound() {
+        System.out.println(name + "hau !");
     }
 }

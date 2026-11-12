@@ -9,7 +9,6 @@ public class Zoo {
             Random random = new Random();
             for (int i = 0; i < animals.length; i++) {
                 int j = random.nextInt(3);
-
                 switch (j) {
                     case 0:
                         animals[i] = new Dog("pies  " + i);
@@ -22,7 +21,6 @@ public class Zoo {
                         break;
                 }
             }
-
         }
         public int sumLegs(){
             int legsum = 0;
